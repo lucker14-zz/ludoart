@@ -11,7 +11,7 @@ body {
 }
 
 header {
-	width: 100%;
+	width: 1080px;
 	position: relative;
 }
 
@@ -90,8 +90,12 @@ nav .container {
 
 #content-wraper {
 	max-width: 1200px;
-	margin: 100px auto;
-	width: 90%
+    margin: 100px auto;
+    width: 90%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .box {
@@ -189,6 +193,7 @@ nav .container {
 }
 
 .store-list {
+	width: 1200px;
 	list-style: none;
 	display: flex;
 	flex-direction: row;
@@ -247,6 +252,7 @@ h5 {
 
 #subscribe {
 	position: relative;
+	width: 1080px;
 }
 
 .texts-container{
