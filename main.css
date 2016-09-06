@@ -130,7 +130,7 @@ nav .container {
 }
 
 .img-avatar {
-	background-image: url("img/avatar-photo.png");
+	background-image: url("img/avatar-photo.jpg");
 	width: 460px;
 	height: 590px;
 	position: absolute;
@@ -223,6 +223,19 @@ h5 {
 	margin: 210px 0px;
 }
 
+.description {
+	font-weight: bold;
+}
+
+.price {
+	text-align: right;
+	position: relative;
+	text-align: right;
+	position: relative;
+	top: -61px;
+	float: right;
+}
+
 // Default notebook and tablet
 @media screen and (max-width: 1200px) {
 	.img-avatar{
@@ -256,7 +269,7 @@ h5 {
 		background-size: 100%;
 	}
 	.img-avatar {
-		background-image: url("img/avatar-photo.png");
+		background-image: url("img/avatar-photo@2x.jpg");
 		background-size: 100%;
 	}
 	.img-showcase {
