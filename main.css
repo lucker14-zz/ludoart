@@ -266,6 +266,7 @@ h5 {
 }
 
 .description-container{
+	margin-top: 25px;
 	width: 100%;
 	height: 40px;
 	float: left;
