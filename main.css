@@ -1,4 +1,7 @@
 body {
+	width: 100%;
+	display: block;
+	float: left;
 	font-family: 'Slabo 27px', serif;
 	background: #6C5B7B;
 	box-sizing: border-box;
@@ -141,6 +144,7 @@ nav .container {
 
 #driver {
 	position: relative;
+	margin-bottom: 230px;
 }
 
 // #driver::before{
@@ -220,5 +224,4 @@ h5 {
 
 #subscribe {
 	position: relative;
-	margin: 210px 0px;
 }
