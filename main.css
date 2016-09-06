@@ -133,7 +133,7 @@ nav .container {
 }
 
 .img-avatar {
-	background-image: url("img/avatar-photo.png");
+	background-image: url("img/avatar-photo.jpg");
 	width: 460px;
 	height: 590px;
 	position: absolute;
@@ -224,4 +224,17 @@ h5 {
 
 #subscribe {
 	position: relative;
+}
+
+.description {
+	font-weight: bold;
+}
+
+.price {
+	text-align: right;
+	position: relative;
+	text-align: right;
+	position: relative;
+	top: -61px;
+	float: right;
 }
