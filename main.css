@@ -253,6 +253,54 @@ h5 {
 #subscribe {
 	position: relative;
 	width: 1080px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.subscribe-text-container{
+	width: 45%;
+	height: auto;
+	float: left;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.email-container{
+	width: 45%;
+	height: auto;
+	float: left;
+}
+
+form{
+	// display: flex;
+}
+
+input[type='email']{
+	width: 69%;
+    border-radius: 30px;
+    -webkit-appearance: none;
+    outline: none;
+    border: none;
+    float: left;
+    position: relative;
+    height: 43px;
+    top: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+input[type='submit']{
+	width: 32%;
+    background-color: white;
+    position: relative;
+    z-index: 30;
+    float: right;
+    bottom: 26px;
+    height: 47px;
 }
 
 .texts-container{
