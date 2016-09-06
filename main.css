@@ -11,7 +11,7 @@ body {
 }
 
 header {
-	width: 100%;
+	width: 1080px;
 	position: relative;
 }
 
@@ -28,6 +28,14 @@ h1 span {
 	font-size: 27px;
 	color: white;
 	/* Hello, I am Ludovit: */
+}
+
+hr{
+	border: none;
+	height: 1px;
+	background-color: rgba(255,255,255,0.2);
+	margin-top: 38px;
+	width: 100%;
 }
 
 h2 {
@@ -82,8 +90,12 @@ nav .container {
 
 #content-wraper {
 	max-width: 1200px;
-	margin: 100px auto;
-	width: 90%
+    margin: 100px auto;
+    width: 90%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .box {
@@ -112,6 +124,16 @@ nav .container {
 	width: 78px;
 	height: 75px;
 	background-image: url("img/signature.png");
+}
+
+.btn-container{
+	width: 100%;
+	height: 45px;
+	float: left;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
 }
 
 .btn {
@@ -171,6 +193,7 @@ nav .container {
 }
 
 .store-list {
+	width: 1200px;
 	list-style: none;
 	display: flex;
 	flex-direction: row;
@@ -182,9 +205,14 @@ nav .container {
 .item {
 	width: 450px;
 	margin-bottom: 140px;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .img-preview {
+	float: left;
 	margin-top: 40px;
 	width: 450px;
 	height: 338px;
@@ -194,7 +222,7 @@ nav .container {
 
 .buy {
 	background: #FFFFFF;
-	margin: 40px auto 0 auto;
+	margin: 25px auto 0 auto;
 	display: block;
 	padding: 0 20px 0 20px;
 	font-weight: 400;
@@ -224,6 +252,28 @@ h5 {
 
 #subscribe {
 	position: relative;
+	width: 1080px;
+}
+
+.texts-container{
+	width: 100%;
+	height: auto;
+	float: left;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.description-container{
+	margin-top: 25px;
+	width: 100%;
+	height: 40px;
+	float: left;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .description {
@@ -233,8 +283,4 @@ h5 {
 .price {
 	text-align: right;
 	position: relative;
-	text-align: right;
-	position: relative;
-	top: -61px;
-	float: right;
 }
